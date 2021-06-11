@@ -3,11 +3,9 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 class Translation(object):
 
     START_TEXT = """
-Hello {} , You are warmly welcome to Leo Youtube Downloader Bot🙂
+Hello {} 👋
 
-
-Made By : @naviya2🇱🇰
-Support Group : @leosupportx🇱🇰
+You are warmly welcome to Leo Youtube Downloader Bot 🇱🇰
 """
     HELP_TEXT = """
 <b><u>Link to Media or File</u></b>
@@ -29,16 +27,19 @@ Updates Channel : @new_ehi 🇱🇰
     ABOUT_TEXT = """
 - **Bot :** `Leo YouTube Downloader`
 - **Creator :** [Naviya](https://telegram.me/naviya2)
-- **Channel :** [Updates Channel](https://telegram.me/new_ehi)
-- **Credits :** `Everyone in this journey`
+- **Updates Channel :** [Leo Updates 🇱🇰](https://telegram.me/new_ehi)
+- **Support Group :** [Leo Support 🇱🇰](https://telegram.me/leosupportx)
 - **Language :** [Python3](https://python.org)
 - **Library :** [Pyrogram v1.2.0](https://pyrogram.org)
 - **Server :** [Heroku](https://heroku.com)
 """
     START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Updates Channel🗣', url='https://telegram.me/new_ehi'),
-        InlineKeyboardButton('Support Group👥', url='https://telegram.me/leosupportx')
+        InlineKeyboardButton('Developer🧑‍💻', url='https://t.me/naviya2'),
+        InlineKeyboardButton('Rate us ★', url='https://t.me/tlgrmcbot?start=leoyoutubedownloaderbot-review')
+        ],[
+        InlineKeyboardButton('Updates Channel 🗣', url='https://telegram.me/new_ehi'),
+        InlineKeyboardButton('Support Group 👥', url='https://telegram.me/leosupportx')
         ],[
         InlineKeyboardButton('Help', callback_data='help'),
         InlineKeyboardButton('About', callback_data='about'),
