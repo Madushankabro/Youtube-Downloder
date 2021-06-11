@@ -6,6 +6,8 @@ class Translation(object):
 Hello {} 👋
 
 You are warmly welcome to Leo Youtube Downloader Bot 🇱🇰
+
+In this bot, You can download any youtubevideo by sending url 😊
 """
     HELP_TEXT = """
 <b><u>Link to Media or File</u></b>
